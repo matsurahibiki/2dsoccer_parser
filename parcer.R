@@ -1,7 +1,7 @@
 library(tidyverse)
 
-source("/Users/k20108kk/class/趣味/研究室/2Dサッカー/parser/read_rcg.R")
-path <- "/Users/k20108kk/class/趣味/研究室/2Dサッカー/20210626170407-FRA-UNIted_2-vs-MT2021_0.rcg"
+source("read_rcg.Rファイルのパス")
+path <- "rcgファイルのパス"
 rcg_player <- read_rcg_player(path)
 rcg_ball <- read_rcg_ball(path)
 
