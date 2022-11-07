@@ -1,7 +1,7 @@
 library(tidyverse)
 
 source("read_rcg.Rファイルのパス")
-path <- "rcgファイルのパス"
+path <- "ダウンロードしたrcgファイルのパス"
 rcg_player <- read_rcg_player(path)
 rcg_ball <- read_rcg_ball(path)
 
