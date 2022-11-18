@@ -42,8 +42,6 @@ read_rcl <- function(path) {
   return(rcl)
 }
 
-#source("/Users/k20108kk/class/趣味/研究室/2Dサッカー/parser/read_rcl.R")
-
 path <- "rclファイルがあるディレクトリのパス"
 file <- "rclファイル名（拡張子なし）"
 filename <- file + ".rcl"
